@@ -445,3 +445,8 @@
 19:19:09.375 [main] INFO  testCases.TC001AccountRegistrationTest - Providing Customer Details
 19:19:11.868 [main] INFO  testCases.TC001AccountRegistrationTest - Validating Expected Message
 19:19:11.992 [main] INFO  testCases.TC001AccountRegistrationTest - **** Finished_TC001AccountRegistrationTest ****
+20:27:48.956 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\workPace\OpenCartV121\master.xml
+
+20:27:57.043 [main] INFO  testCases.TC002LoginTest - ***** Start TC002LoginTest ******
+20:28:00.228 [main] INFO  testCases.TC002LoginTest - ***** Finished TC002LoginTest******
