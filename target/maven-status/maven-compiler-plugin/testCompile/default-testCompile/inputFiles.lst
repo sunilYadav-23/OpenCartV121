@@ -1,12 +1,16 @@
 C:\workPace\OpenCartV121\src\test\java\pageObjects\AccountRegistrationPage.java
+C:\workPace\OpenCartV121\src\test\java\pageObjects\AddtocartPage.java
 C:\workPace\OpenCartV121\src\test\java\pageObjects\BasePage.java
 C:\workPace\OpenCartV121\src\test\java\pageObjects\HomePage.java
 C:\workPace\OpenCartV121\src\test\java\pageObjects\LoginPage.java
 C:\workPace\OpenCartV121\src\test\java\pageObjects\MyAccountPage.java
+C:\workPace\OpenCartV121\src\test\java\pageObjects\searchPage.java
 C:\workPace\OpenCartV121\src\test\java\testBase\BaseClass.java
 C:\workPace\OpenCartV121\src\test\java\testCases\TC001AccountRegistrationTest.java
 C:\workPace\OpenCartV121\src\test\java\testCases\TC002LoginTest.java
 C:\workPace\OpenCartV121\src\test\java\testCases\TC003loginDDT.java
+C:\workPace\OpenCartV121\src\test\java\testCases\TC004SearchProductTest.java
+C:\workPace\OpenCartV121\src\test\java\testCases\TC005AddtocartTest.java
 C:\workPace\OpenCartV121\src\test\java\utilities\DataProviders.java
 C:\workPace\OpenCartV121\src\test\java\utilities\ExcelUtility.java
 C:\workPace\OpenCartV121\src\test\java\utilities\ExtentReportManager.java

@@ -8,20 +8,13 @@
     <parameter name="os" value="Windows"/>
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="testCases.TC001AccountRegistrationTest">
+      <class name="testCases.TC003loginDDT">
         <methods>
           <include name="tearDown"/>
-          <include name="Varify_account_registration"/>
           <include name="setup"/>
+          <include name="varify_loginDDT" invocation-numbers="0 3"/>
         </methods>
-      </class> <!-- testCases.TC001AccountRegistrationTest -->
-      <class name="testCases.TC002LoginTest">
-        <methods>
-          <include name="tearDown"/>
-          <include name="varify_Login"/>
-          <include name="setup"/>
-        </methods>
-      </class> <!-- testCases.TC002LoginTest -->
+      </class> <!-- testCases.TC003loginDDT -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Master Suite] -->

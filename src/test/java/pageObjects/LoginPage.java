@@ -19,7 +19,10 @@ public class LoginPage extends BasePage {
 
 	@FindBy(xpath = "//input[@value='Login']")
 	WebElement btnlogin;
-
+	
+	@FindBy(xpath="//a[normalize-space()='Logout']")
+	WebElement btnLogout;
+	
 	public void setUsername(String user) {
 
 		txtusername.sendKeys(user);
@@ -31,6 +34,11 @@ public class LoginPage extends BasePage {
 
 	public void Clicklogin() {
 		btnlogin.click();
+	}
+	
+	public void clickLogout() {
+		btnLogout.click();
+		
 	}
 
 }

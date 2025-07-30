@@ -17,6 +17,8 @@ public class MyAccountPage extends BasePage {
 
 	@FindBy(xpath = "//a[@class='list-group-item'][normalize-space()='Logout']")
 	WebElement lnkLogout;
+	
+	
 
 	public boolean isMyAccountPageExist() {
 		try {
@@ -30,5 +32,9 @@ public class MyAccountPage extends BasePage {
 	public void Clicklogout() {
 		lnkLogout.click();
 	}
-
+	
+	
+	
+	
+	
 }

@@ -32,7 +32,6 @@ public class BaseClass {
 	public Logger logger; // Log4j
 	public Properties p;
 
-
 	@BeforeClass(groups = { "Sanity", "Regression", "Master" })
 	@Parameters({ "os", "browser" })
 	public void setup(String os, String br) throws IOException, URISyntaxException, InterruptedException {
@@ -98,7 +97,6 @@ public class BaseClass {
 
 		driver.manage().deleteAllCookies();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-		
 
 		driver.get(p.getProperty("appURL"));
 		// reading url from properties file.
